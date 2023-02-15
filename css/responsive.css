@@ -1,5 +1,5 @@
 
-/********** REsposive for max-width: 290px ***********/
+/********** Responsive for max-width: 290px ***********/
 
 @media only screen and (max-width:290px) {
     
@@ -69,13 +69,6 @@
         .land-page {
             height: 660px;
             width: 100%;
-          }
-    
-          .mypic {
-            height: 300px;
-            width: 260px;
-            margin-top: 360px;
-            margin-left: 10px;
           }
     
           .das{
@@ -233,7 +226,7 @@
 
 
 
-/********** REsposive for max-width: 380px ***********/
+/********** Responsive for max-width: 380px ***********/
 
 
 @media only screen and (min-width:291px) and (max-width:380px) {
@@ -299,13 +292,6 @@
   .land-page {
       height: 670px;
       width: 100%;
-    }
-
-    .mypic {
-      height: 400px;
-      width: 350px;
-      margin-top: 270px;
-      margin-left: 14px;
     }
 
     .das{
@@ -433,7 +419,7 @@ textarea {
 
 
 
-/********** REsposive for max-width: 420px ***********/
+/********** Responsive for max-width: 420px ***********/
 
 
 
@@ -496,13 +482,6 @@ textarea {
   .land-page {
       height: 740px;
       width: 100%;
-    }
-
-    .mypic {
-      height: 400px;
-      width: 350px;
-      margin-top: 340px;
-      margin-left: 24px;
     }
 
     .das{
@@ -632,7 +611,7 @@ textarea {
 
 
 
-/********** REsposive for max-width: 780px ***********/
+/********** Responsive for max-width: 780px ***********/
 
 
 
@@ -708,13 +687,6 @@ textarea {
   .land-page {
       height: 1030px;
       width: 100%;
-    }
-
-    .mypic {
-      height: 800px;
-      width: 700px;
-      margin-top: 230px;
-      margin-left: 68px;
     }
 
     .das{
@@ -830,7 +802,7 @@ textarea {
 
 
 
-/********** REsposive for max-width: 830px ***********/
+/********** Responsive for max-width: 830px ***********/
 
 
 @media only screen and (min-width:781px) and (max-width:830px) {
@@ -922,6 +894,199 @@ textarea {
     .design {
       font-size: 36px;
       margin-left: 80px;
+      margin-top: 0px;
+    }
+
+
+    /* about section */
+
+  .about {
+      margin-top: 1290px;
+      margin-bottom: 50px;
+      margin-left: 0px;
+  }
+
+  .samrat {
+      padding: 10px 20px;
+    }
+
+  .leftpic {
+      height: 800px;
+      width: 800px;
+      margin: 10px;
+    }
+
+  .about-under {
+      display: block;
+    }
+
+    .about-under-left {
+      height: auto;
+      width: fit-content;
+    }
+    
+    .about-under-right {
+      padding: 0px 30px;
+    
+    }
+
+    .about-under-right1 {
+      padding-top: 30px;
+      padding-left: 10px;
+    }
+
+    .about-under-right2 {
+      margin: 30px 0px;
+    }
+
+    /* skill section  */
+
+.skill {
+  margin-left: 0px;
+  padding: 30px 0px;
+}
+
+.skill-under-next {
+  padding: 0px 20px;
+}
+
+.right-under-text {
+  padding-top: 20px;
+  
+}
+
+/* resume section */
+
+.resume {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 0px;
+}
+
+.resume-under-next {
+  padding: 20px;
+}
+
+
+/* contact section */
+
+.contact {
+  margin-top: 0px;
+  margin-bottom: 100px;
+  margin-left: 0px;
+  padding: 0px;
+}
+
+.contact-under-left {
+  width: 350px;
+}
+
+.contact-under-right {
+  width: 440px;
+}
+
+.form-input {
+  width: 350px;
+}
+
+textarea {
+  width: 350px;
+}
+  
+}
+
+
+
+
+
+
+/********** Responsive for max-width: 830px ***********/
+
+
+@media only screen and (min-width:831px) and (max-width:1024px) {
+
+  .main {
+      display: block;
+    }
+
+  /* side-navbar */
+
+  .side-nav {
+      height: 1180px;
+      background-color: rgba(0, 0, 0, 0.8);
+      backdrop-filter: blur(5px) saturate(150%);
+      z-index: 999;
+      transition: all .8s;
+      margin-left: -400px;
+    }
+
+    .circle {
+      margin-top: 50px;
+    }
+
+    .name {
+      padding-top: 40px;
+    }
+
+    .icon {
+      margin-top: 40px;
+    }
+
+    ul li {
+      padding: 20px 10px;
+    }
+
+    .home {
+      font-size: 20px;
+    }
+
+    .copyright {
+      font-size: 18px;
+      margin-top: 200px;
+    }
+    
+
+    .mobile-menu {
+      margin-left: 0px;
+    }
+
+  /* mobile-nave  */
+
+  .mobile-nav {
+      height: 45px;
+      width: 45px;
+      border-radius: 50%;
+      background-color: rgb(61, 144, 223);
+      padding: 7px 10px;
+      font-size: 24px;
+      cursor: pointer;
+      display: block;
+      outline: none;
+      color: white;
+      position: fixed;
+      top: 15px;
+      right: 15px;
+      z-index: 999;
+      
+  }
+
+  /* land page  */
+
+  .land-page {
+      height: 1190px;
+      width: 100%;
+    }
+
+    .das{
+      font-size: 48px;
+      margin-top: 500px;
+      margin-left: 40px;
+    }
+
+    
+    .design {
+      font-size: 32px;
+      margin-left: 40px;
       margin-top: 0px;
     }
 

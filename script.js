@@ -26,21 +26,32 @@ function scrollFunction() {
 }
 
 
+// land page ---- typed js
 
 
-// let backinleft = document.getElementById("about-under-left");
+var typed = new Typed('#type', {
+  strings: ['Web Designer', 'Web Developer', 'Freelancer'],
+  typeSpeed : 80,
+  backSpeed : 80,
+  backDelay: 2000,
+  loop : true
+});
 
-// // When the user scrolls down 20px from the top of the document, show the button
 
-// window.onscroll = function() {vv()};
+// resume page
 
-// function vv() {
-//   if (document.documentElement.scrollTop > 400) {
-//     backinleft.style.display = "block";
-//   } 
-//   else {
-//     backinleft.style.display = "none";
-//   }
-// }
+$(document).ready(function () {
+  // function scrollFunction() {
+    // if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) 
+
+    $(window).onscroll(function(){
+    $(".contact-under-left").slideLeft("slow");
+  });
+
+});
+
+
+
+
 
 

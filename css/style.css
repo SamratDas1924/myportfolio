@@ -18,7 +18,7 @@ body {
 /* side-navbar */
 
 .side-nav {
-  height: 720px;
+  height: 760px;
   width: 300px;
   background-color: black;
   position: fixed;
@@ -35,7 +35,7 @@ body {
   box-shadow: 0px 0px 10px 0px white;
   border-radius: 50%;
   margin-top: 30px;
-  background: url("../assets/my pic.jpeg") no-repeat center center/cover;
+  background: url("../assets/profilepic.jpeg") no-repeat center center/cover;
 }
 
 .name {
@@ -98,7 +98,7 @@ ul li {
   font-size: 16px;
   text-align: center;
   padding: 0px 20px;
-  margin-bottom: 0px;
+  margin-top: 40px;
 }
 
 /* mobile-nav  */
@@ -110,32 +110,28 @@ ul li {
 /* land page */
 
 .land-page {
-  height: 720px;
-  width: 1220px;
-  position: absolute;
+  height: 760px;
+  width: 81%;
+  position: fixed;
+  z-index: -999;
   top: 0;
   right: 0;
   background: url("../assets/background.jpg") no-repeat center center/cover;
+  
 }
 
-.mypic {
-  height: 670px;
-  width: 570px;
-  margin-top: 50px;
-  margin-left: 450px;
-}
 
 .das{
-  font-size: 64px;
+  font-size: 48px;
   font-family: sans-serif;
   color: white;
   font-weight: 600;
   margin-left: 150px;
-  margin-top: -420px;
+  margin-top: 300px;
 }
 
 .design {
-  font-size: 36px;
+  font-size: 26px;
   font-family: sans-serif;
   color: white;
   font-weight: 600;
@@ -171,8 +167,12 @@ ul li {
 .about {
   height: auto;
   margin-top: 850px;
-  margin-bottom: 100px;
   margin-left: 300px;
+  padding-bottom: 30px;
+  /* backdrop-filter: blur(16px) saturate(180%);
+  background-color: rgba(255, 255, 255, 0.75);
+  border: 1px solid rgba(209, 213, 219, 0.3); */
+  background-color: white;
 }
 
 .head {
@@ -181,6 +181,7 @@ ul li {
   font-weight: 600;
   color: rgb(31, 31, 156);
   padding-left: 20px;
+  padding-top: 50px;
 }
 
 .samrat {
@@ -273,10 +274,8 @@ ul li {
 
 .skill {
   height: auto;
-  margin-top: 100px;
-  margin-bottom: 100px;
   margin-left: 300px;
-  padding: 50px 0px;
+  padding: 30px 0px;
   background-color: rgb(233, 247, 252);
 }
 
@@ -314,10 +313,9 @@ body > div.skill > div > div:nth-child(n) > div:nth-child(n) {
 
 .resume {
   height: auto;
-  margin-top: 100px;
-  margin-bottom: 20px;
   margin-left: 300px;
   padding: 30px 0px;
+  background-color: white;
 }
 
 .resume-under {
@@ -329,6 +327,7 @@ body > div.skill > div > div:nth-child(n) > div:nth-child(n) {
   height: auto;
   width: 100%;
   padding: 20px;
+  margin-left: 50px;
 }
 
 .resume-text {
@@ -336,17 +335,11 @@ body > div.skill > div > div:nth-child(n) > div:nth-child(n) {
 }
 
 .resume-text-next {
-  display: flex;
-  justify-content: space-between;
-  padding-left: 20px;
-}
-
-.resume-text-next1 {
-  width: 25px;
-}
-
-.resume-text-next2 {
-  width: 100%;
+  width: 400px;
+  height: fit-content;
+  box-shadow: -5px 5px 10px 0px rgb(145, 144, 144);
+  margin-left: 50px;
+  margin-top: 30px;
 }
 
 .round {
@@ -386,14 +379,17 @@ body > div.skill > div > div:nth-child(n) > div:nth-child(n) {
   text-align: justify;
 }
 
+.resume-text-next:hover {
+  transform: scale(1.1);
+}
+
 /* contact section */
 
 .contact {
   height: auto;
-  margin-top: 20px;
-  margin-bottom: 100px;
   margin-left: 300px;
-  padding: 30px 0px;
+  padding: 0px 0px 50px 0px;
+  background-color: white;
 }
 
 .contact-under {
@@ -408,7 +404,7 @@ body > div.skill > div > div:nth-child(n) > div:nth-child(n) {
   margin: 20px 10px;
   padding: 20px;
   background-color: white;
-  box-shadow: 0px 0px 10px 0px rgb(215, 214, 214);
+  box-shadow: 0px 0px 10px 0px rgb(143, 143, 143);
 }
 
 .call {
@@ -450,7 +446,7 @@ body > div.skill > div > div:nth-child(n) > div:nth-child(n) {
   margin: 20px 10px;
   padding: 50px;
   background-color: white;
-  box-shadow: 0px 0px 10px 0px rgb(215, 214, 214);
+  box-shadow: 0px 0px 10px 0px rgb(143, 143, 143);
 }
 
 
