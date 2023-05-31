@@ -6,6 +6,8 @@
 
 body {
   font-family: sans-serif;
+  font-size: 1rem;
+  background-color: white;
 }
 
 .main {
@@ -15,11 +17,11 @@ body {
   justify-content: space-between;
 }
 
-/* side-navbar */
+/**************** side-navbar ********************/
 
 .side-nav {
-  height: 760px;
-  width: 300px;
+  height: 800px;
+  width: 17%;
   background-color: black;
   position: fixed;
   top: 0;
@@ -29,36 +31,36 @@ body {
 }
 
 .circle {
-  height: 150px;
-  width: 150px;
-  border: 8px solid rgb(58, 58, 58);
-  box-shadow: 0px 0px 10px 0px white;
+  height: 9.5rem;
+  width: 9.5rem;
+  border: 0.5rem solid rgb(58, 58, 58);
+  box-shadow: 0px 0px 0.6rem 0px white;
   border-radius: 50%;
-  margin-top: 30px;
+  margin-top: 2rem;
   background: url("../assets/profilepic.jpeg") no-repeat center center/cover;
 }
 
 .name {
-  font-size: 20px;
+  font-size: 1.25rem;
   color: white;
-  padding-top: 20px;
+  padding-top: 1.25rem;
 }
 
 .icon {
   height: auto;
-  margin: 20px;
+  margin: 1rem;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   
 }
 
 .sub-icon {
-  height: 35px;
-  width: 35px;
+  height: 2.25rem;
+  width: 2.25rem;
   border-radius: 50%;  
-  margin: 5px 7px;
-  font-size: 20px;
-  padding: 4px 5px;
+  margin: 0.3rem 0.1rem;
+  font-size: 1.25rem;
+  padding: 0.3rem;
   background-color: rgb(44, 43, 43);
 }
 
@@ -67,7 +69,7 @@ body {
 }
 
 .next {
-  margin-top: 30px;
+  margin-top: 2rem;
 }
 
 ul {
@@ -75,17 +77,17 @@ ul {
 }
 
 ul li {
-  padding: 8px 10px;
+  padding: 0.6rem;
 }
 
 .list {
-  font-size: 22px;
+  font-size: 1.3rem;
   color: rgb(146, 144, 144);
   text-decoration: none;
 }
 
 .home {
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 .list:hover {
@@ -95,10 +97,10 @@ ul li {
 .copyright {
   height: auto;
   color: white;
-  font-size: 16px;
+  font-size: 1rem;
   text-align: center;
-  padding: 0px 20px;
-  margin-top: 40px;
+  padding: 0px 1.25rem;
+  margin-top: 2.5rem;
 }
 
 /* mobile-nav  */
@@ -110,8 +112,8 @@ ul li {
 /* land page */
 
 .land-page {
-  height: 760px;
-  width: 81%;
+  height: 800px;
+  width: 83%;
   position: fixed;
   z-index: -999;
   top: 0;
@@ -122,81 +124,79 @@ ul li {
 
 
 .das{
-  font-size: 48px;
-  font-family: sans-serif;
+  font-size: 3rem;
   color: white;
   font-weight: 600;
-  margin-left: 150px;
-  margin-top: 300px;
+  margin-left: 7.5rem;
+  margin-top: 18.75rem;
 }
 
 .design {
-  font-size: 26px;
-  font-family: sans-serif;
+  font-size: 1.6rem;
   color: white;
   font-weight: 600;
-  margin-left: 120px;
-  margin-top: 20px;
+  margin-left: 7.5rem;
+  margin-top: 0.6rem;
 }
 
-/* up-arrow */
+/**************** up-arrow ***************/
 
 .up-arrow {
-  height: 50px;
-  width: 50px;
+  height: 3rem;
+  width: 3rem;
   border-radius: 50%;
   background-color: rgb(61, 144, 223);
   position: fixed;
-  bottom: 20px;
-  right: 20px;
+  bottom: 1.25rem;
+  right: 1.25rem;
   display: none;
 }
 
 #arrow {
-  font-size: 30px;
+  font-size: 2rem;
   color: white;
-  padding: 10px;
+  padding: 0.6rem;
 }
 
 .up-arrow:hover {
   background-color: rgb(83, 154, 221);
 }
 
-/* about section */
+/**************** about section **************/
 
 .about {
   height: auto;
-  margin-top: 850px;
-  margin-left: 300px;
-  padding-bottom: 30px;
-  /* backdrop-filter: blur(16px) saturate(180%);
-  background-color: rgba(255, 255, 255, 0.75);
-  border: 1px solid rgba(209, 213, 219, 0.3); */
+  width: 83%;
+  margin-top: 53.1rem;
+  margin-left: 17%;
+  padding-bottom: 2rem;
   background-color: white;
 }
 
 .head {
-  font-size: 40px;
-  font-family: sans-serif;
+  font-size: 2.5rem;
   font-weight: 600;
   color: rgb(31, 31, 156);
-  padding-left: 20px;
-  padding-top: 50px;
+  padding-left: 2.5rem;
+  padding-top: 3rem;
 }
 
 .samrat {
-  font-size: 16px;
-  font-family: sans-serif;
-  padding: 20px;
+  font-size: 1rem;
+  padding: 1.25rem 5rem;
   line-height: 1.4;
   text-align: justify;
 }
 
+.about-under-left {
+  z-index: 999999;
+}
+
 .leftpic {
-  height: 300px;
-  width: 300px;
-  margin-left: 20px;
-  margin-top: 10px;
+  height: 18.75rem;
+  width: 18.75rem;
+  margin-left: 1.25rem;
+  margin-top: 0.6rem;
 }
 
 .about-under {
@@ -216,7 +216,7 @@ ul li {
 
 @keyframes myAnime {
   0% {
-    left: -400px;
+    left: -25rem;
   }
 
   100% {
@@ -229,54 +229,56 @@ ul li {
   width: 100%;
   display: flex;
   justify-content: space-between;
-  padding: 10px 30px 30px 30px;
-
+  padding: 0.6rem 2rem 2rem 2rem;
+  z-index: 1;
 }
 
 .about-under-right1 {
   height: auto;
   width: 100%;
-  padding: 0px 30px;
+  padding: 0px 2rem;
 }
 
 .about-under-right2 {
   height: auto;
   width: 100%;
-  margin: 50px 0px;
+  margin: 3rem 0px;
 }
 
 .span-left {
-  font-size: 20px;
-  padding-bottom: 10px;
+  font-size: 1.25rem;
+  padding-bottom: 0.6rem;
 }
 
 .span-right {
-  font-size: 20px;
-  padding-bottom: 10px;
+  font-size: 1.25rem;
+  padding-bottom: 0.6rem;
 }
 
 .greater-than {
-  height: 10px;
-  width: 10px;
+  height: 0.6rem;
+  width: 0.6rem;
   border-right: 2px solid blue;
   border-bottom: 2px solid blue;
   transform: rotate(-45deg);
   display: inline-block;
-  margin-right: 10px;
+  margin-right: 0.6rem;
 }
 
 .bx-chevrons-rightS {
-  font-size: 36px;
-  padding-right: 20px;
+  font-size: 2.25rem;
+  padding-right: 1.25rem;
 }
 
-/* skill section  */
+
+/************** skill section  *******************/
 
 .skill {
   height: auto;
-  margin-left: 300px;
-  padding: 30px 0px;
-  background-color: rgb(233, 247, 252);
+  width: 83%;
+  margin-left: 17%;
+  padding: 2rem 0px;
+  background-color: rgb(214, 242, 253);
 }
 
 .skill-under {
@@ -284,37 +286,39 @@ ul li {
   width: 100%;
   display: flex;
   justify-content: space-between;
-  
+  padding: 0px 3rem;
 }
 
 .skill-under-next {
   height: auto;
   width: 100%;
-  padding: 20px;
+  padding: 1.25rem;
 }
 
 .right-under-text {
-  font-size: 14px;
+  font-size: 0.9rem;
   font-weight: 600;
   font-family: sans-serif;
-  padding-top: 30px;
+  padding-top: 2rem;
   
 }
 
 body > div.skill > div > div:nth-child(n) > div:nth-child(n) {
-  height: 10px;
+  height: 0.6rem;
   width: 100%;
-  border-radius: 0%;
-  background-color: rgb(225, 225, 225);
+  border-radius: 0.3rem;
+  background-color: rgb(192, 191, 191);
 
 }
 
-/* resume section */
+
+/***************** resume section ************************/
 
 .resume {
   height: auto;
-  margin-left: 300px;
-  padding: 30px 0px;
+  width: 83%;
+  margin-left: 17%;
+  padding: 2rem 0px;
   background-color: white;
 }
 
@@ -323,59 +327,52 @@ body > div.skill > div > div:nth-child(n) > div:nth-child(n) {
   justify-content: space-between;
 }
 
-.resume-under-next {
+.resume-under-left {
   height: auto;
-  width: 100%;
-  padding: 20px;
+  width: 50%;
+  padding: 1.25rem;
   margin-left: 50px;
+}
+
+.resume-under-right {
+  height: auto;
+  width: 50%;
+  padding: 1.25rem;
+  margin-left: 3rem;
 }
 
 .resume-text {
-  font-size: 26px;
+  font-size: 1.6rem;
 }
 
 .resume-text-next {
-  width: 400px;
+  width: 80%;
   height: fit-content;
-  box-shadow: -5px 5px 10px 0px rgb(145, 144, 144);
-  margin-left: 50px;
-  margin-top: 30px;
-}
-
-.round {
-  height: 15px;
-  width: 15px;
-  border-radius: 50%;
-  border: 2px solid blue;
-  margin: 25px 5px 0px 5px;
-}
-
-.line {
-  height: 160px;
-  width: 2px;
-  border: none;
-  background-color: blue;
-  margin: 0px 11px 0px 11px;
+  box-shadow: -5px 5px 0.6rem 0px rgb(145, 144, 144);
+  margin-left: 3rem;
+  margin-top: 2rem;
+  transition: all .8s;
+  padding-left: 1rem;
 }
 
 .qualification {
-  font-size: 20px;
-  padding: 20px 10px 10px 10px;
+  font-size: 1.25rem;
+  padding: 1.25rem 0.6rem 0.6rem 0.6rem;
 }
 
 .qualification-btn {
-  height: 30px;
-  width: 120px;
-  padding: 3px 10px;
-  font-size: 18px;
+  height: 2rem;
+  width: 7.5rem;
+  padding: 3px 0.6rem;
+  font-size: 1.1rem;
   color: white;
   background-color: rgb(127, 187, 244);
   border: none;
-  margin-left: 10px;
+  margin-left: 0.6rem;
 }
 
 .qualification-text {
-  padding: 10px;
+  padding: 0.6rem;
   text-align: justify;
 }
 
@@ -383,90 +380,168 @@ body > div.skill > div > div:nth-child(n) > div:nth-child(n) {
   transform: scale(1.1);
 }
 
-/* contact section */
+
+/***************** project section ************************/
+
+.project {
+  height: auto;
+  width: 83%;
+  margin-left: 17%;
+  background-color: rgb(238, 225, 252);
+}
+
+.project-under {
+  display: flex;
+  justify-content: space-between;
+}
+
+.project-under-left {
+  height: auto;
+  width: 50%;
+  padding: 1.25rem;
+  margin-left: 3rem;
+}
+
+.project-under-right {
+  height: auto;
+  width: 50%;
+  padding: 1.25rem;
+  margin-right: 3rem;
+}
+
+.project-undeer-next {
+  height: 333px;
+  width: 90%;
+  background-color: white;
+  margin: 1rem 3rem 4rem 3rem;
+  box-shadow: 10px 10px 0.6rem 0px rgb(145, 144, 144);
+}
+
+.project-pic {
+  height: 270px;
+  width: 100%;
+}
+
+.view {
+  display: flex;
+  justify-content: space-between;
+}
+
+.project-text {
+  height: 3.5rem;
+  width: 50%;
+  padding: 1rem 0rem;
+  border-radius: 5px;
+  background-color: blueviolet;
+  font-size: 1rem;
+  color: white;
+  font-weight: 600;
+  margin: 0.2rem;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+.project-text:hover {
+  color: yellow;
+}
+
+
+
+/******************* contact section *******************/
 
 .contact {
   height: auto;
-  margin-left: 300px;
-  padding: 0px 0px 50px 0px;
+  width: 83%;
+  margin-left: 17%;
+  padding: 0px 0px 3rem 0px;
   background-color: white;
 }
 
 .contact-under {
   height: auto;
+  width: 100%;
   display: flex;
   justify-content: space-between;
 }
 
 .contact-under-left {
   height: auto;
-  width: 500px;
-  margin: 20px 10px;
-  padding: 20px;
+  width: 35%;
+  margin: 1.25rem 3rem;
+  padding: 1.25rem;
   background-color: white;
-  box-shadow: 0px 0px 10px 0px rgb(143, 143, 143);
+  box-shadow: 0px 0px 0.6rem 0px rgb(143, 143, 143);
 }
 
 .call {
   display: flex;
   justify-content: space-between;
+  padding: 3rem 0px 0px 0px ;
 }
 
 .call-under {
-  height: 50px;
-  width: 50px;
+  height: 3rem;
+  width: 3rem;
   border-radius: 50%;
   background-color: rgb(225, 246, 252);
-  margin: 10px;
+  margin: 0.6rem;
 }
 
 .call-text {
-  margin: 10px;
+  margin: 0.6rem;
   width: 100%;
 }
 
 #call-icon {
-  font-size: 25px;
+  font-size: 1.5rem;
   color: rgb(61, 193, 223);
-  padding: 13px;
+  padding: 0.8rem;
 }
 
 .call-span {
-  font-size: 22px;
+  font-size: 1.25rem;
   font-weight: 600;
 }
 
 .call-p {
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 .contact-under-right {
   height: auto;
-  width: 700px;
-  margin: 20px 10px;
-  padding: 50px;
+  width: 55%;
+  margin: 1.25rem 3rem;
+  padding: 3rem;
   background-color: white;
-  box-shadow: 0px 0px 10px 0px rgb(143, 143, 143);
+  box-shadow: 0px 0px 0.6rem 0px rgb(143, 143, 143);
 }
 
 
 .form-lable {
-  font-size: 16px;
-  margin-bottom: 5px;
+  font-size: 1rem;
+  margin-bottom: 0.3rem;
 
 }
 
 .form-input {
-  height: 40px;
-  width: 600px;
-  padding: 10px;
-  margin-bottom: 10px;
+  height: 2.5rem;
+  width: 100%;
+  padding: 0.6rem;
+  margin-bottom: 0.6rem;
   border: 1px solid gray;
+}
+
+#msg {
+  height: 6rem;
+  width: 100%;
 }
 
 textarea {
   border: 1px solid gray;
-  padding: 10px;
+  padding: 0.6rem;
 }
 
 .form-input:focus {
@@ -480,16 +555,16 @@ textarea:focus {
 }
 
 .submit {
-  height: 50px;
-  width: 150px;
-  font-size: 18px;
-  padding: 10px;
+  height: 3rem;
+  width: 9.5rem;
+  font-size: 1rem;
+  padding: 0.6rem;
   color: white;
   text-align: center;
   background-color: rgb(44, 104, 235);
   border: none;
   border-radius: 5px;
-  margin-top: 30px;
+  margin-top: 2rem;
 }
 
 .submit:hover {

@@ -6,18 +6,29 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>My Portfolio</title>
     </head>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/responsive.css">
+    <!-------------------- box Icon css ------------------->
     <link href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css" rel="stylesheet">
+
+    <!-------------------- bootstrap css ------------------->
     <link
         href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
         rel="stylesheet"
         integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
         crossorigin="anonymous"
     >
+
+    <!-------------------- Animate css  --------------------->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+
+    <!-------------------- css ------------------->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
     <body>
         <div class="main">
-            <!-- side navbar  -->
+            <!----------------- side navbar  -------------------->
             <div class="side-nav">
                 <center>
                     <div class="circle"></div>
@@ -52,7 +63,7 @@
                         </div>
                     </div>
                 </center>
-                <div class="next" onclick="cli1()">
+                <div class="next">
                     <ul>
                         <li>
                             <a href="#" class="list">
@@ -82,13 +93,13 @@
                                 <span class="home"> Project</span>
                             </a>
                         </li>
-                        <li>
+                        <!-- <li>
                             <a href="" class="list">
                                 <i class="bx bx-server"></i>
                                 &nbsp;&nbsp;&nbsp;
                                 <span class="home"> Services</span>
                             </a>
-                        </li>
+                        </li> -->
                         <li>
                             <a href="#contact1" class="list">
                                 <i class="bx bx-envelope"></i>
@@ -106,80 +117,82 @@
                     </p>
                 </div>
             </div>
-            <!-- mobile-nav  -->
+            
+            <!----------------- mobile-nav  ---------------------->
             <div class="mobile-nav">
                 <i class="bx bx-menu" onclick="cli1()"></i>
             </div>
-            <!-- land page  -->
+            
+            <!-------------------- land page  -------------------->
             <div class="land-page" id="home">
-                <h1 class="das">Samrat Das</h1>
-                <p class="design">
+                <h1 class="das wow animate__animated animate__fadeInDown">Samrat Das</h1>
+                <p class="design wow animate__animated animate__fadeInUp">
                     Hello, I'm
                     <span id="type"></span>
                 </p>
             </div>
         </div>
-        <!-- up-arrow  -->
+        <!------------------ up-arrow  -------------------->
         <div class="up-arrow" id="back-to-top">
             <a href="#">
                 <i class="bx bx-up-arrow-alt" id="arrow"></i>
             </a>
         </div>
-        <!-- about section  -->
+        <!------------------- about section  ------------------->
         <div class="about" id="about1">
             <h3 class="head">About</h3>
             <p class="samrat">
                 I'm Samrat Das, Recident of Nimta, Kolkata - 700049, West Bengal.
-         I'm a Full Stack Developer. I completed Diploma in Full Stack Development.
-          I designed many website. I also Developed so many Website.
+         I'm a Full Stack Developer. I have completed Diploma in Full Stack Development.
+          I have designed many website. I have also Developed so many Website.
             </p>
             <div class="about-under">
                 <div class="about-under-left" id="about-under-left">
                     <img src="assets/profilepic.jpeg" alt="" class="leftpic">
                 </div>
                 <div class="about-under-right">
-                    <div class="about-under-right1">
+                    <div class="about-under-right1 wow animate__animated animate__fadeInLeft">
                         <div class="about-under-right2">
                             <div class="greater-than"></div>
                             <span class="span-left">
-                                <b>Birthday:</b>
+                                <b>Birthday :</b>
                             </span>
                             <span class="span-right">5 July 1993</span>
                         </div>
                         <div class="about-under-right2">
                             <div class="greater-than"></div>
                             <span class="span-left">
-                                <b>City:</b>
+                                <b>City :</b>
                             </span>
                             <span class="span-right">Kolkata, India</span>
                         </div>
                         <div class="about-under-right2">
                             <div class="greater-than"></div>
                             <span class="span-left">
-                                <b>Degree:</b>
+                                <b>Degree :</b>
                             </span>
                             <span class="span-right">Diploma</span>
                         </div>
                     </div>
-                    <div class="about-under-right1">
+                    <div class="about-under-right1 wow animate__animated animate__fadeInRight">
                         <div class="about-under-right2">
                             <div class="greater-than"></div>
                             <span class="span-left">
-                                <b>Phone:</b>
+                                <b>Phone :</b>
                             </span>
                             <span class="span-right">9123858217</span>
                         </div>
                         <div class="about-under-right2">
                             <div class="greater-than"></div>
                             <span class="span-left">
-                                <b>Email:</b>
+                                <b>Email :</b>
                             </span>
                             <span class="span-right">samratdas.1924@gmail.com</span>
                         </div>
                         <div class="about-under-right2">
                             <div class="greater-than"></div>
                             <span class="span-left">
-                                <b>Website:</b>
+                                <b>Website :</b>
                             </span>
                             <span class="span-right">samratdas.com</span>
                         </div>
@@ -187,11 +200,11 @@
                 </div>
             </div>
         </div>
-        <!-- skill section  -->
+        <!-------------------- skill section  ------------------->
         <div class="skill">
             <h3 class="head">Skills</h3>
             <div class="skill-under">
-                <div class="skill-under-next">
+                <div class="skill-under-next wow animate__animated animate__fadeInLeft">
                     <h4 class="right-under-text">HTML</h4>
                     <div class="progress">
                         <div
@@ -226,7 +239,7 @@
                         ></div>
                     </div>
                 </div>
-                <div class="skill-under-next">
+                <div class="skill-under-next wow animate__animated animate__fadeInRight">
                     <h4 class="right-under-text">PHP</h4>
                     <div class="progress">
                         <div
@@ -263,31 +276,31 @@
                 </div>
             </div>
         </div>
-        <!-- resume section    -->
+        <!----------------- resume section   ----------------------->
         <div class="resume" id="resume1">
             <h3 class="head">Resume</h3>
             <div class="resume-under">
-                <div class="resume-under-next" id="resume-under-next1">
+                <div class="resume-under-left" id="resume-under-next1">
                     <h4 class="resume-text">Educational Qualification</h4>
-                    <div class="resume-text-next">
+                    <div class="resume-text-next wow animate__animated animate__fadeInLeft">
                         <h5 class="qualification">Bachelor Of Commerce</h5>
                         <button class="qualification-btn">2011-2014</button>
                         <p class="qualification-text">I have completed B.Com in 2014 with First class.</p>
                     </div>
-                    <div class="resume-text-next" id="resume-under-next2">
-                        <h5 class="qualification">Bachelor Of Arts</h5>
-                        <button class="qualification-btn">2015-2018</button>
-                        <p class="qualification-text">I have completed B.A in 2018 with First class.</p>
+                    <div class="resume-text-next wow animate__animated animate__fadeInLeft" id="resume-under-next2">
+                        <h5 class="qualification">Diploma in Computer Fundamental</h5>
+                        <button class="qualification-btn">2014-2016</button>
+                        <p class="qualification-text">I have completed  Diploma in Computer Fundamental in 2016.</p>
                     </div>
                 </div>
-                <div class="resume-under-next">
+                <div class="resume-under-right">
                     <h4 class="resume-text">Others Qualification</h4>
-                    <div class="resume-text-next">
+                    <div class="resume-text-next wow animate__animated animate__fadeInRight">
                         <h5 class="qualification">Diploma in Tally ERP-9</h5>
-                        <button class="qualification-btn">2014-2015</button>
-                        <p class="qualification-text">I have completed Diploma in Tally in 2015.</p>
+                        <button class="qualification-btn">2016-2017</button>
+                        <p class="qualification-text">I have completed Diploma in Tally in 2017.</p>
                     </div>
-                    <div class="resume-text-next">
+                    <div class="resume-text-next wow animate__animated animate__fadeInRight">
                         <h5 class="qualification">Diploma in Full Stack Development</h5>
                         <button class="qualification-btn">2021-2022</button>
                         <p class="qualification-text">I have completed Diploma in Full Stack Development in 2022.</p>
@@ -295,11 +308,70 @@
                 </div>
             </div>
         </div>
-        <!-- contact section   -->
+
+        <!------------------- project  --------------------->
+        <div class="project" id="project1">
+            <h3 class="head">Project</h3>
+            <div class="project-under">
+                <div class="project-under-left">
+                    <div class="project-undeer-next wow animate__animated animate__fadeInLeft">
+                        <img src="assets/project1.png" alt="" class="project-pic">
+                        <div class="view">
+
+                            <a href="" class="project-text">View Details</a>
+                            <a href="" class="project-text">GitHub Code</a>
+                        </div>
+                    </div>
+                    <div class="project-undeer-next wow animate__animated animate__fadeInLeft">
+                        <img src="assets/project2.png" alt="" class="project-pic">
+                        <div class="view">
+
+                            <a href="https://elitestylepolyclinic.com" class="project-text">View Details</a>
+                            <a href="#" class="project-text">GitHub Code</a>
+                        </div>
+                    </div>
+                    <div class="project-undeer-next wow animate__animated animate__fadeInLeft">
+                        <img src="assets/project5.png" alt="" class="project-pic">
+                        <div class="view">
+
+                            <a href="#" class="project-text">View Details</a>
+                            <a href="https://github.com/SamratDas1924/js-api-call" class="project-text">GitHub Code</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-under-right">
+                    <div class="project-undeer-next wow animate__animated animate__fadeInRight">
+                        <img src="assets/project3.png" alt="" class="project-pic">
+                        <div class="view">
+
+                            <a href="#" class="project-text">View Details</a>
+                            <a href="https://github.com/SamratDas1924/skill-haunt" class="project-text">GitHub Code</a>
+                        </div>
+                    </div>
+                    <div class="project-undeer-next wow animate__animated animate__fadeInRight">
+                        <img src="assets/project4.png" alt="" class="project-pic">
+                        <div class="view">
+
+                            <a href="https://thegrowingindia.com" class="project-text">View Details</a>
+                            <a href="#" class="project-text">GitHub Code</a>
+                        </div>
+                    </div>
+                    <div class="project-undeer-next wow animate__animated animate__fadeInRight">
+                        <img src="assets/project6.png" alt="" class="project-pic">
+                        <div class="view">
+
+                            <a href="#" class="project-text">View Details</a>
+                            <a href="https://github.com/SamratDas1924/js-digital-clock" class="project-text">GitHub Code</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!------------------ contact section   ------------------->
         <div class="contact" id="contact1">
             <h3 class="head">Contact</h3>
             <div class="contact-under">
-                <div class="contact-under-left">
+                <div class="contact-under-left wow animate__animated animate__fadeInLeft">
                     <div class="call">
                         <div class="call-under">
                             <i class="bx bx-mobile-alt" id="call-icon"></i>
@@ -331,7 +403,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="contact-under-right">
+                <div class="contact-under-right wow animate__animated animate__fadeInRight">
                     <div class="form">
                         <label for="" class="form-lable">Your Name:</label>
                         <br>
@@ -349,9 +421,7 @@
                         <br>
                         <textarea
                             name=""
-                            id=""
-                            cols="76"
-                            rows="7"
+                            id="msg" 
                             placeholder="Massage"
                         ></textarea>
                         <br>
@@ -362,8 +432,18 @@
                 </div>
             </div>
         </div>
+
+        <!--------------------- typed java script  ----------------------->
         <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+        
+        <!--------------------- jquery java script  ----------------------->
         <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
+        
+        <!--------------------- wow java script  ----------------------->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js" integrity="sha512-Eak/29OTpb36LLo2r47IpVzPBLXnAMPAVypbSZiZ4Qkf8p/7S/XRG5xp7OKWPPYfJT6metI+IORkR5G8F900+g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script> new WOW().init(); </script>
+
+        <!--------------------- java script  ----------------------->
         <script src="script.js"></script>
     </body>
 </html>
